@@ -1,6 +1,6 @@
 # Shapes Example Project
 
-This is a compilation of examples using the shapes libraries please feel free to try it out and contribute if you think something should be added or modified. 
+This is a compilation of examples using the (shapes library)[https://github.com/kieranb662/Shapes] please feel free to try it out and contribute if you think something should be added or modified. 
 
 ## Lines
 
