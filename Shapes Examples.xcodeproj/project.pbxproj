@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,33 @@
 		895BF5DB2445F65200B61ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895BF5DA2445F65200B61ADB /* Assets.xcassets */; };
 		895BF5DE2445F65200B61ADB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895BF5DD2445F65200B61ADB /* Preview Assets.xcassets */; };
 		895BF5E12445F65200B61ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895BF5DF2445F65200B61ADB /* LaunchScreen.storyboard */; };
+		895BF5EA2445F67000B61ADB /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 895BF5E92445F67000B61ADB /* Shapes */; };
+		895BF5EC2445F68500B61ADB /* Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5EB2445F68500B61ADB /* Lines.swift */; };
+		895BF5EE2445FBA300B61ADB /* Graphing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5ED2445FBA300B61ADB /* Graphing.swift */; };
+		895BF5F02445FDDC00B61ADB /* Triangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5EF2445FDDC00B61ADB /* Triangles.swift */; };
+		895BF5F22445FF4000B61ADB /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5F12445FF4000B61ADB /* Polygon.swift */; };
+		895BF5F42446000600B61ADB /* PentagonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5F32446000600B61ADB /* PentagonExample.swift */; };
+		895BF5F6244600F900B61ADB /* TickMarksExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5F5244600F900B61ADB /* TickMarksExample.swift */; };
+		895BF5F8244601EB00B61ADB /* PathTextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5F7244601EB00B61ADB /* PathTextExample.swift */; };
+		895BF5FA244604B500B61ADB /* ArrowExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5F9244604B500B61ADB /* ArrowExample.swift */; };
+		895BF5FC244605E600B61ADB /* FoldableShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5FB244605E600B61ADB /* FoldableShape.swift */; };
+		895BF60F24461F3200B61ADB /* Line.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 895BF5FE24461F3200B61ADB /* Line.MP4 */; };
+		895BF61024461F3200B61ADB /* Ruler.png in Resources */ = {isa = PBXBuildFile; fileRef = 895BF5FF24461F3200B61ADB /* Ruler.png */; };
+		895BF61124461F3200B61ADB /* CartesianGrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 895BF60024461F3200B61ADB /* CartesianGrid.png */; };
+		895BF61224461F3200B61ADB /* HorizontalLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 895BF60124461F3200B61ADB /* HorizontalLine.png */; };
+		895BF61324461F3200B61ADB /* AdaptiveLine.mov in Resources */ = {isa = PBXBuildFile; fileRef = 895BF60224461F3200B61ADB /* AdaptiveLine.mov */; };
+		895BF61424461F3200B61ADB /* VerticalLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 895BF60324461F3200B61ADB /* VerticalLine.png */; };
+		895BF61524461F3200B61ADB /* Triangles.png in Resources */ = {isa = PBXBuildFile; fileRef = 895BF60424461F3200B61ADB /* Triangles.png */; };
+		895BF61624461F3200B61ADB /* Pentagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 895BF60524461F3200B61ADB /* Pentagon.png */; };
+		895BF61724461F3200B61ADB /* FoldableShapes.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 895BF60624461F3200B61ADB /* FoldableShapes.MP4 */; };
+		895BF61824461F3200B61ADB /* Arrows.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 895BF60724461F3200B61ADB /* Arrows.MP4 */; };
+		895BF61924461F3200B61ADB /* CartesianGrid.mov in Resources */ = {isa = PBXBuildFile; fileRef = 895BF60824461F3200B61ADB /* CartesianGrid.mov */; };
+		895BF61A24461F3200B61ADB /* VerticalLine.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 895BF60924461F3200B61ADB /* VerticalLine.MP4 */; };
+		895BF61B24461F3200B61ADB /* PathText.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 895BF60A24461F3200B61ADB /* PathText.MP4 */; };
+		895BF61C24461F3200B61ADB /* Ruler.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 895BF60B24461F3200B61ADB /* Ruler.MP4 */; };
+		895BF61D24461F3200B61ADB /* Polar.png in Resources */ = {isa = PBXBuildFile; fileRef = 895BF60C24461F3200B61ADB /* Polar.png */; };
+		895BF61E24461F3200B61ADB /* Line.png in Resources */ = {isa = PBXBuildFile; fileRef = 895BF60D24461F3200B61ADB /* Line.png */; };
+		895BF61F24461F3200B61ADB /* HorizontalLine.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 895BF60E24461F3200B61ADB /* HorizontalLine.MP4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +51,32 @@
 		895BF5DD2445F65200B61ADB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		895BF5E02445F65200B61ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		895BF5E22445F65200B61ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895BF5EB2445F68500B61ADB /* Lines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lines.swift; sourceTree = "<group>"; };
+		895BF5ED2445FBA300B61ADB /* Graphing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphing.swift; sourceTree = "<group>"; };
+		895BF5EF2445FDDC00B61ADB /* Triangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangles.swift; sourceTree = "<group>"; };
+		895BF5F12445FF4000B61ADB /* Polygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
+		895BF5F32446000600B61ADB /* PentagonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PentagonExample.swift; sourceTree = "<group>"; };
+		895BF5F5244600F900B61ADB /* TickMarksExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickMarksExample.swift; sourceTree = "<group>"; };
+		895BF5F7244601EB00B61ADB /* PathTextExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathTextExample.swift; sourceTree = "<group>"; };
+		895BF5F9244604B500B61ADB /* ArrowExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowExample.swift; sourceTree = "<group>"; };
+		895BF5FB244605E600B61ADB /* FoldableShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldableShape.swift; sourceTree = "<group>"; };
+		895BF5FE24461F3200B61ADB /* Line.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Line.MP4; sourceTree = "<group>"; };
+		895BF5FF24461F3200B61ADB /* Ruler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ruler.png; sourceTree = "<group>"; };
+		895BF60024461F3200B61ADB /* CartesianGrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CartesianGrid.png; sourceTree = "<group>"; };
+		895BF60124461F3200B61ADB /* HorizontalLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HorizontalLine.png; sourceTree = "<group>"; };
+		895BF60224461F3200B61ADB /* AdaptiveLine.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = AdaptiveLine.mov; sourceTree = "<group>"; };
+		895BF60324461F3200B61ADB /* VerticalLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VerticalLine.png; sourceTree = "<group>"; };
+		895BF60424461F3200B61ADB /* Triangles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Triangles.png; sourceTree = "<group>"; };
+		895BF60524461F3200B61ADB /* Pentagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pentagon.png; sourceTree = "<group>"; };
+		895BF60624461F3200B61ADB /* FoldableShapes.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FoldableShapes.MP4; sourceTree = "<group>"; };
+		895BF60724461F3200B61ADB /* Arrows.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arrows.MP4; sourceTree = "<group>"; };
+		895BF60824461F3200B61ADB /* CartesianGrid.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = CartesianGrid.mov; sourceTree = "<group>"; };
+		895BF60924461F3200B61ADB /* VerticalLine.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VerticalLine.MP4; sourceTree = "<group>"; };
+		895BF60A24461F3200B61ADB /* PathText.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = PathText.MP4; sourceTree = "<group>"; };
+		895BF60B24461F3200B61ADB /* Ruler.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ruler.MP4; sourceTree = "<group>"; };
+		895BF60C24461F3200B61ADB /* Polar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Polar.png; sourceTree = "<group>"; };
+		895BF60D24461F3200B61ADB /* Line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Line.png; sourceTree = "<group>"; };
+		895BF60E24461F3200B61ADB /* HorizontalLine.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = HorizontalLine.MP4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				895BF5EA2445F67000B61ADB /* Shapes in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +94,7 @@
 		895BF5C82445F65200B61ADB = {
 			isa = PBXGroup;
 			children = (
+				895BF5FD24461F3200B61ADB /* Media */,
 				895BF5D32445F65200B61ADB /* Shapes Examples */,
 				895BF5D22445F65200B61ADB /* Products */,
 			);
@@ -59,6 +114,15 @@
 				895BF5D42445F65200B61ADB /* AppDelegate.swift */,
 				895BF5D62445F65200B61ADB /* SceneDelegate.swift */,
 				895BF5D82445F65200B61ADB /* ContentView.swift */,
+				895BF5FB244605E600B61ADB /* FoldableShape.swift */,
+				895BF5F9244604B500B61ADB /* ArrowExample.swift */,
+				895BF5F5244600F900B61ADB /* TickMarksExample.swift */,
+				895BF5F7244601EB00B61ADB /* PathTextExample.swift */,
+				895BF5F32446000600B61ADB /* PentagonExample.swift */,
+				895BF5F12445FF4000B61ADB /* Polygon.swift */,
+				895BF5EB2445F68500B61ADB /* Lines.swift */,
+				895BF5ED2445FBA300B61ADB /* Graphing.swift */,
+				895BF5EF2445FDDC00B61ADB /* Triangles.swift */,
 				895BF5DA2445F65200B61ADB /* Assets.xcassets */,
 				895BF5DF2445F65200B61ADB /* LaunchScreen.storyboard */,
 				895BF5E22445F65200B61ADB /* Info.plist */,
@@ -73,6 +137,30 @@
 				895BF5DD2445F65200B61ADB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		895BF5FD24461F3200B61ADB /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				895BF5FE24461F3200B61ADB /* Line.MP4 */,
+				895BF5FF24461F3200B61ADB /* Ruler.png */,
+				895BF60024461F3200B61ADB /* CartesianGrid.png */,
+				895BF60124461F3200B61ADB /* HorizontalLine.png */,
+				895BF60224461F3200B61ADB /* AdaptiveLine.mov */,
+				895BF60324461F3200B61ADB /* VerticalLine.png */,
+				895BF60424461F3200B61ADB /* Triangles.png */,
+				895BF60524461F3200B61ADB /* Pentagon.png */,
+				895BF60624461F3200B61ADB /* FoldableShapes.MP4 */,
+				895BF60724461F3200B61ADB /* Arrows.MP4 */,
+				895BF60824461F3200B61ADB /* CartesianGrid.mov */,
+				895BF60924461F3200B61ADB /* VerticalLine.MP4 */,
+				895BF60A24461F3200B61ADB /* PathText.MP4 */,
+				895BF60B24461F3200B61ADB /* Ruler.MP4 */,
+				895BF60C24461F3200B61ADB /* Polar.png */,
+				895BF60D24461F3200B61ADB /* Line.png */,
+				895BF60E24461F3200B61ADB /* HorizontalLine.MP4 */,
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +179,9 @@
 			dependencies = (
 			);
 			name = "Shapes Examples";
+			packageProductDependencies = (
+				895BF5E92445F67000B61ADB /* Shapes */,
+			);
 			productName = "Shapes Examples";
 			productReference = 895BF5D12445F65200B61ADB /* Shapes Examples.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +210,9 @@
 				Base,
 			);
 			mainGroup = 895BF5C82445F65200B61ADB;
+			packageReferences = (
+				895BF5E82445F67000B61ADB /* XCRemoteSwiftPackageReference "Shapes" */,
+			);
 			productRefGroup = 895BF5D22445F65200B61ADB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -134,8 +228,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				895BF5E12445F65200B61ADB /* LaunchScreen.storyboard in Resources */,
+				895BF61024461F3200B61ADB /* Ruler.png in Resources */,
+				895BF61724461F3200B61ADB /* FoldableShapes.MP4 in Resources */,
+				895BF61C24461F3200B61ADB /* Ruler.MP4 in Resources */,
+				895BF61124461F3200B61ADB /* CartesianGrid.png in Resources */,
+				895BF61824461F3200B61ADB /* Arrows.MP4 in Resources */,
+				895BF61524461F3200B61ADB /* Triangles.png in Resources */,
+				895BF61224461F3200B61ADB /* HorizontalLine.png in Resources */,
+				895BF61424461F3200B61ADB /* VerticalLine.png in Resources */,
 				895BF5DE2445F65200B61ADB /* Preview Assets.xcassets in Resources */,
+				895BF61E24461F3200B61ADB /* Line.png in Resources */,
+				895BF61A24461F3200B61ADB /* VerticalLine.MP4 in Resources */,
 				895BF5DB2445F65200B61ADB /* Assets.xcassets in Resources */,
+				895BF61D24461F3200B61ADB /* Polar.png in Resources */,
+				895BF61324461F3200B61ADB /* AdaptiveLine.mov in Resources */,
+				895BF61F24461F3200B61ADB /* HorizontalLine.MP4 in Resources */,
+				895BF61624461F3200B61ADB /* Pentagon.png in Resources */,
+				895BF61B24461F3200B61ADB /* PathText.MP4 in Resources */,
+				895BF60F24461F3200B61ADB /* Line.MP4 in Resources */,
+				895BF61924461F3200B61ADB /* CartesianGrid.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +257,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				895BF5FC244605E600B61ADB /* FoldableShape.swift in Sources */,
+				895BF5F42446000600B61ADB /* PentagonExample.swift in Sources */,
+				895BF5EE2445FBA300B61ADB /* Graphing.swift in Sources */,
 				895BF5D52445F65200B61ADB /* AppDelegate.swift in Sources */,
+				895BF5EC2445F68500B61ADB /* Lines.swift in Sources */,
+				895BF5F8244601EB00B61ADB /* PathTextExample.swift in Sources */,
+				895BF5FA244604B500B61ADB /* ArrowExample.swift in Sources */,
+				895BF5F02445FDDC00B61ADB /* Triangles.swift in Sources */,
 				895BF5D72445F65200B61ADB /* SceneDelegate.swift in Sources */,
+				895BF5F6244600F900B61ADB /* TickMarksExample.swift in Sources */,
 				895BF5D92445F65200B61ADB /* ContentView.swift in Sources */,
+				895BF5F22445FF4000B61ADB /* Polygon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +462,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		895BF5E82445F67000B61ADB /* XCRemoteSwiftPackageReference "Shapes" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kieranb662/Shapes.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		895BF5E92445F67000B61ADB /* Shapes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 895BF5E82445F67000B61ADB /* XCRemoteSwiftPackageReference "Shapes" */;
+			productName = Shapes;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 895BF5C92445F65200B61ADB /* Project object */;
 }
