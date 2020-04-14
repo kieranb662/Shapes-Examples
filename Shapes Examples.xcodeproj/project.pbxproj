@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		893FDD1A2446383F00D107B2 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 893FDD192446383F00D107B2 /* readme.md */; };
 		895BF5D52445F65200B61ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5D42445F65200B61ADB /* AppDelegate.swift */; };
 		895BF5D72445F65200B61ADB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5D62445F65200B61ADB /* SceneDelegate.swift */; };
 		895BF5D92445F65200B61ADB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5D82445F65200B61ADB /* ContentView.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		893FDD192446383F00D107B2 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		895BF5D12445F65200B61ADB /* Shapes Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shapes Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		895BF5D42445F65200B61ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		895BF5D62445F65200B61ADB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		895BF5C82445F65200B61ADB = {
 			isa = PBXGroup;
 			children = (
+				893FDD192446383F00D107B2 /* readme.md */,
 				895BF5FD24461F3200B61ADB /* Media */,
 				895BF5D32445F65200B61ADB /* Shapes Examples */,
 				895BF5D22445F65200B61ADB /* Products */,
@@ -231,6 +234,7 @@
 				895BF61024461F3200B61ADB /* Ruler.png in Resources */,
 				895BF61724461F3200B61ADB /* FoldableShapes.MP4 in Resources */,
 				895BF61C24461F3200B61ADB /* Ruler.MP4 in Resources */,
+				893FDD1A2446383F00D107B2 /* readme.md in Resources */,
 				895BF61124461F3200B61ADB /* CartesianGrid.png in Resources */,
 				895BF61824461F3200B61ADB /* Arrows.MP4 in Resources */,
 				895BF61524461F3200B61ADB /* Triangles.png in Resources */,
